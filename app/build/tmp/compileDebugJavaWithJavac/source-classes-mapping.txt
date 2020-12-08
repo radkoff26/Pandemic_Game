@@ -1,3 +1,8 @@
+com/example/pandemic/MainActivity.java
+ com.example.pandemic.MainActivity
+ com.example.pandemic.MainActivity$1
+com/example/pandemic/BuildConfig.java
+ com.example.pandemic.BuildConfig
 com/example/pandemic/WithoutAction.java
  com.example.pandemic.WithoutAction
  com.example.pandemic.WithoutAction$1
@@ -11,14 +16,9 @@ com/example/pandemic/WithAction.java
  com.example.pandemic.WithAction
  com.example.pandemic.WithAction$1
  com.example.pandemic.WithAction$Listener
-com/example/pandemic/MainActivity.java
- com.example.pandemic.MainActivity
- com.example.pandemic.MainActivity$1
 com/example/pandemic/Condition.java
  com.example.pandemic.Condition
  com.example.pandemic.Condition$1
  com.example.pandemic.Condition$2
-com/example/pandemic/BuildConfig.java
- com.example.pandemic.BuildConfig
 com/example/pandemic/Calculations.java
  com.example.pandemic.Calculations

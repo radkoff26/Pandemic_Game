@@ -77,11 +77,19 @@ public class Calculations {
         //Check if hero has been recovered
         isIll = day - recover < 3;
 
+        if (day.equals(recover)) {
+            amount++;
+        }
+
+        if (day - recover == 2) {
+            amount--;
+        }
+
         //Increasing amount of people who have ill
         if (part.equals("1") || part.equals("3")) {
             amount += (int) Math.round((day * (percentage_to_get / 100)) / 2);
             if (Math.random() < 0.15) {
-                amount--;
+                amount = amount > 0 ? amount - 1 : 0;
             }
         }
 
